@@ -84,15 +84,15 @@ const Home = () => {
         <div className="container">
           <div className="stats-grid">
             <div className="stat reveal">
-              <span className="stat-number">50+</span>
+              <span className="stat-number">15+</span>
               <span className="stat-label">Projects Delivered</span>
             </div>
             <div className="stat reveal">
-              <span className="stat-number">25+</span>
+              <span className="stat-number">10+</span>
               <span className="stat-label">Happy Clients</span>
             </div>
             <div className="stat reveal">
-              <span className="stat-number">8+</span>
+              <span className="stat-number">3+</span>
               <span className="stat-label">Years Experience</span>
             </div>
             <div className="stat reveal">

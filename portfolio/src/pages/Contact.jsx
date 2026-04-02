@@ -22,13 +22,13 @@ const Contact = () => {
           <button type="submit" className="western-btn">Send Message →</button>
         </form>
         <div className="contact-info">
-          <h3>madison@westernstudios.com</h3>
+          <h3>madison.mitchell704@gmail.com</h3>
           <div className="social-icons">
             <i className="fab fa-instagram"></i>
             <i className="fab fa-behance"></i>
             <i className="fab fa-linkedin-in"></i>
           </div>
-          <div className="western-address">📍 Marfa, Texas — available worldwide</div>
+          <div className="western-address">📍 Dadeville, Missouri — available worldwide</div>
         </div>
       </div>
     </div>
