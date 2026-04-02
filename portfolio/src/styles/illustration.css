@@ -1,0 +1,38 @@
+/* pages/Illustration.css */
+.illustration-page {
+  padding: 60px 24px 90px;
+}
+
+.illustration-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 35px;
+  margin-top: 20px;
+}
+
+.ill-card {
+  background: #FFFBF4;
+  border-radius: 28px;
+  overflow: hidden;
+  border: 1px solid #E4D2B6;
+  transition: all 0.2s;
+}
+
+.ill-card:hover {
+  box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+}
+
+.ill-img {
+  height: 280px;
+  background-size: cover;
+  background-position: center;
+  background-color: #D9C6A2;
+}
+
+.ill-card h3 {
+  text-align: center;
+  padding: 20px 12px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #5B3C1E;
+}

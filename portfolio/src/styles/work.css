@@ -1,0 +1,64 @@
+/* pages/Work.css */
+.work-page {
+  padding: 60px 24px 90px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.subtitle {
+  color: #6F4E2E;
+  font-size: 1.1rem;
+  margin-top: 12px;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.work-card {
+  background: #FFFFFFD9;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.25s;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.05);
+  border: 1px solid #E7D7BC;
+}
+
+.work-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 14px 28px rgba(90, 55, 25, 0.12);
+}
+
+.work-img {
+  height: 260px;
+  background-size: cover;
+  background-position: center;
+  background-color: #CBB88C;
+}
+
+.work-info {
+  padding: 18px 20px 22px;
+}
+
+.work-info h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #4A2E18;
+}
+
+.work-info span {
+  display: inline-block;
+  background: #F0E4D2;
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #9B6A3C;
+  margin-top: 10px;
+}

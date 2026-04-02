@@ -1,0 +1,130 @@
+/* pages/WebDesign.css */
+.webdesign-page {
+  padding: 60px 0 100px;
+}
+
+.web-showcase {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 60px 0;
+}
+
+.web-project-card {
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  border-radius: 32px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+  border: 1px solid #EADBBC;
+}
+
+.web-project-card:hover {
+  transform: translateX(10px);
+}
+
+.web-project-img {
+  flex: 1;
+  min-height: 300px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.tech-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  color: white;
+  padding: 20px;
+  font-size: 0.85rem;
+  font-family: monospace;
+}
+
+.web-project-info {
+  flex: 1;
+  padding: 32px;
+}
+
+.web-project-info h3 {
+  font-size: 1.8rem;
+  font-family: 'Playfair Display', serif;
+  color: #4E3421;
+  margin-bottom: 8px;
+}
+
+.project-type {
+  display: inline-block;
+  background: #B87C4E20;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: #B87C4E;
+  margin-bottom: 20px;
+}
+
+.feature-list {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.feature-list li {
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.feature-list i {
+  color: #B87C4E;
+}
+
+.western-btn.small {
+  padding: 8px 20px;
+  font-size: 0.8rem;
+}
+
+.process-section {
+  text-align: center;
+  padding: 60px 0;
+  background: #F9F2E3;
+  border-radius: 48px;
+  margin-top: 40px;
+}
+
+.process-section h2 {
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 40px;
+}
+
+.process-steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.step {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 60px;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.step span {
+  color: #B87C4E;
+  font-weight: 800;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .web-project-card {
+    flex-direction: column;
+  }
+}

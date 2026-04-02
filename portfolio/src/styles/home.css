@@ -1,0 +1,269 @@
+/* pages/Home.css - Enhanced */
+.home-page {
+  animation: fadeIn 0.6s ease;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 0 60px;
+  gap: 50px;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-badge {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.9rem;
+  letter-spacing: 4px;
+  color: #A16E3A;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.hero-content h1 {
+  font-size: 4.5rem;
+  font-weight: 900;
+  font-family: 'Playfair Display', serif;
+  color: #3C2A1C;
+  line-height: 1.1;
+}
+
+.hero-accent {
+  color: #B87C4E;
+  border-bottom: 3px solid #E3C9A0;
+}
+
+.hero-tagline {
+  font-size: 1.2rem;
+  color: #6F4E2E;
+  max-width: 550px;
+  margin: 20px 0 28px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.western-btn.secondary {
+  background: transparent;
+  border-color: #8B5A2B;
+}
+
+.hero-image {
+  flex: 1;
+  background: linear-gradient(135deg, #DCCAA8, #C9B280);
+  border-radius: 80px 20px 80px 20px;
+  box-shadow: 20px 20px 0 #B87C4E40;
+  min-height: 400px;
+  background-image: url('https://placehold.co/700x500/EADBC6/9C6E3F?text=Madison+Mitchell+Creative');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.hero-image:hover {
+  transform: translateY(-8px);
+}
+
+.hero-badge-img {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  background: rgba(0,0,0,0.7);
+  padding: 8px 18px;
+  border-radius: 40px;
+  font-size: 0.8rem;
+  font-family: monospace;
+  color: #FDE8C8;
+  backdrop-filter: blur(4px);
+}
+
+/* Web Highlight Section */
+.web-highlight {
+  background: linear-gradient(135deg, #2A241A 0%, #3A2E22 100%);
+  color: #FDF8F0;
+  padding: 80px 0;
+  margin: 40px 0;
+  border-radius: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.web-highlight::before {
+  content: '</>';
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 80px;
+  opacity: 0.05;
+  font-family: monospace;
+}
+
+.highlight-badge {
+  display: inline-block;
+  background: #B87C4E;
+  padding: 6px 18px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.web-highlight h2 {
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+}
+
+.web-highlight p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tech-stack span {
+  background: rgba(255,255,255,0.1);
+  padding: 6px 16px;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.featured-work {
+  background: #F9F2E3;
+  padding: 70px 0;
+  border-radius: 60px;
+  margin: 40px 0;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+  border: 1px solid #EADBBC;
+}
+
+.feature-card:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(110, 70, 30, 0.2);
+}
+
+.card-img {
+  height: 260px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s;
+}
+
+.feature-card:hover .card-img {
+  transform: scale(1.05);
+}
+
+.feature-card h3 {
+  margin: 22px 24px 8px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #4E3421;
+}
+
+.feature-card p {
+  margin: 0 24px 28px;
+  color: #7A5A3A;
+  font-weight: 500;
+}
+
+/* Stats Section */
+.stats-section {
+  padding: 60px 0;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  text-align: center;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-number {
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: 'Playfair Display', serif;
+  color: #B87C4E;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #6F4E2E;
+  margin-top: 8px;
+}
+
+.quote-section {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #F3EBDC, #EDE3D0);
+  border-radius: 60px;
+  margin: 40px 0;
+}
+
+.quote-text {
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  max-width: 900px;
+  margin: 0 auto;
+  color: #3F2D1B;
+  line-height: 1.4;
+}
+
+.quote-author {
+  margin-top: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 { font-size: 2.8rem; }
+  .quote-text { font-size: 1.5rem; }
+  .web-highlight h2 { font-size: 1.8rem; }
+  .hero-buttons { flex-direction: column; }
+}

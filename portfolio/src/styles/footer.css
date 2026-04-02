@@ -1,0 +1,46 @@
+/* components/Footer.css - Enhanced */
+.footer {
+  background: #2A241A;
+  color: #E7DBC8;
+  padding: 48px 0 32px;
+  margin-top: 80px;
+  border-top: 4px solid #B87C4E;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-left p {
+  margin: 5px 0;
+}
+
+.footer-tagline {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+
+.footer-icons i {
+  font-size: 1.4rem;
+  margin: 0 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  color: #D4BB8C;
+}
+
+.footer-icons i:hover {
+  color: #E6C393;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 700px) {
+  .footer-content {
+    justify-content: center;
+    text-align: center;
+  }
+}

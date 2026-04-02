@@ -1,0 +1,37 @@
+/* pages/About.css */
+.about-page {
+  padding: 80px 24px;
+}
+
+.about-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1.2;
+}
+
+.about-text p {
+  margin: 24px 0;
+  line-height: 1.6;
+  color: #4F3A26;
+  font-size: 1.05rem;
+}
+
+.about-photo {
+  flex: 0.8;
+  min-width: 240px;
+}
+
+.photo-frame {
+  background: #DECAAB;
+  width: 100%;
+  padding-top: 120%;
+  background-image: url('https://placehold.co/500x600/E6D3B5/8C6239?text=Madison+Portrait');
+  background-size: cover;
+  border-radius: 40px 12px 40px 12px;
+  box-shadow: 16px 16px 0 #B87C4E40;
+}
