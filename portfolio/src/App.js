@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Work from './pages/Work';
+import WebDesign from './pages/WebDesign';
 import Illustration from './pages/Illustration';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -30,6 +31,7 @@ function App() {
             <Route path="/illustration" element={<Illustration />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/web-design" element={<WebDesign />} />
           </Routes>
         </main>
         <Footer />
